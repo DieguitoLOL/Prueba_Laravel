@@ -2,6 +2,7 @@
 
 namespace Database\Seeders;
 
+use App\Models\Vacuna;
 use Illuminate\Database\Console\Seeds\WithoutModelEvents;
 use Illuminate\Database\Seeder;
 
@@ -12,6 +13,10 @@ class VacunaSeeder extends Seeder
      */
     public function run(): void
     {
-        //
+        Vacuna::insert([
+            [
+                
+            ]
+        ])
     }
 }
