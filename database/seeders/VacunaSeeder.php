@@ -15,8 +15,8 @@ class VacunaSeeder extends Seeder
     {
         Vacuna::insert([
             [
-                
+
             ]
-        ])
+            ]);
     }
 }
