@@ -14,7 +14,7 @@ class RazaSeeder extends Seeder
     public function run(): void
     {
         Raza::inser([
-            
-        ])
+
+        ]);
     }
 }
